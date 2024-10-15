@@ -18,7 +18,7 @@ graph TD
 
     subgraph Data Collection
         A1[Azure Blob Storage / Data Lake]
-        A2[Azure Cognitive Services (Face API, OCR)]
+        A2[Azure Cognitive Services Face API, OCR]
         A1 --> A2
         A2 --> A
     end
