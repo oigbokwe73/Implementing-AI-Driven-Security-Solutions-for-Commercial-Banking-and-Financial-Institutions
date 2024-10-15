@@ -40,7 +40,7 @@ graph TD
     end
 
     subgraph Model Deployment
-        D1[Azure Kubernetes Service (AKS)]
+        D1[Azure Kubernetes Service AKS]
         D2[Azure API Management]
         D1 --> D2
         D2 --> D
