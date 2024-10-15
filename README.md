@@ -125,10 +125,6 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
 ---
 
 
-Here’s a step-by-step Azure roadmap for building solutions around **AI-powered Network Traffic Analysis**, **Predictive Maintenance for System Uptime**, **Intelligent Incident Response Systems**, and **Continuous Security Monitoring and Reporting**:
-
----
-
 ### **1. AI-powered Network Traffic Analysis**
 This solution leverages AI to analyze network traffic patterns, detect anomalies, and optimize network performance.
 
@@ -137,7 +133,7 @@ This solution leverages AI to analyze network traffic patterns, detect anomalies
    - Identify key metrics (bandwidth, latency, packet loss) and specific anomalies to detect (DDoS attacks, unusual traffic patterns).
 
 2. **Data Collection:**
-   - **Azure Network Watcher:** Use it to monitor and capture traffic flows between network devices.
+   - **Azure Network Watcher:** monitor and capture traffic flows between network devices.
    - **Azure Monitor:** Gather logs and metrics from Azure resources and on-premise networks.
 
 3. **Data Storage:**
@@ -146,7 +142,7 @@ This solution leverages AI to analyze network traffic patterns, detect anomalies
 
 4. **Data Processing:**
    - **Azure Stream Analytics** or **Azure Event Hubs:** Ingest and process real-time traffic data.
-   - **Azure Functions:** Apply real-time logic and transformations to network data streams.
+   - **Azure Functions(Xenhey):** Apply real-time logic and transformations to network data streams.
 
 5. **AI/ML Modeling:**
    - **Azure Machine Learning:** Build models that analyze traffic patterns and detect anomalies.
@@ -155,10 +151,9 @@ This solution leverages AI to analyze network traffic patterns, detect anomalies
 
 6. **Visualization and Reporting:**
    - **Azure Power BI:** Create dashboards showing traffic patterns, anomalies, and performance metrics.
-   - **Azure Synapse Analytics:** Aggregate data and create complex traffic analysis reports.
-
+   
 7. **Deployment & Monitoring:**
-   - **Azure Kubernetes Service (AKS):** Deploy AI models for real-time inference.
+   - **Azure Functions(Xenhey):** Deploy AI models for real-time inference.
    - **Azure Monitor & Application Insights:** Continuously monitor AI model performance and optimize it.
 
 ---
@@ -171,28 +166,25 @@ This solution uses AI to predict failures in systems and machinery to reduce dow
    - Identify the systems to monitor and the metrics (temperature, vibration, energy consumption, etc.) that signal potential failures.
 
 2. **Data Collection:**
-   - **IoT Hub:** Connect sensors to IoT devices and gather telemetry data.
    - **Azure Data Lake Storage (ADLS):** Store historical and real-time data for training AI models.
 
 3. **Data Processing:**
-   - **Azure IoT Central:** Aggregate IoT data and enable device management.
-   - **Azure Event Grid:** Route device-generated data to the appropriate processing services.
+   - **Azure Event Grid:**Route generated data to the appropriate processing services via Xenhey Automated Workflows.
 
 4. **AI/ML Modeling:**
    - **Azure Machine Learning:** Develop predictive models to forecast equipment failure based on historical data.
    - **Azure Databricks:** Perform large-scale data analysis and AI model training.
-   - **Time Series Insights:** Analyze historical sensor data to identify patterns that lead to failures.
+   - **Time Series Insights:** Analyze historical data to identify patterns that lead to failures.
 
 5. **Preventive Actions and Alerts:**
-   - **Azure Logic Apps:** Automate maintenance actions, like notifying technicians when failures are predicted.
-   - **Azure Functions:** Trigger preventive actions when models predict upcoming failures.
+   - **Azure Functions Apps(Xenhey):** Automate maintenance actions, like notifying technicians when failures are predicted.
+   - **Azure Functions(Xenhey):** Trigger preventive actions when models predict upcoming failures.
 
 6. **Visualization:**
    - **Power BI:** Build predictive maintenance dashboards showing real-time system health, failure predictions, and recommended actions.
 
 7. **System Integration:**
    - **Azure Digital Twins:** Create digital replicas of physical systems for advanced simulation and what-if scenario analysis.
-   - **Azure Synapse Analytics:** Connect and query data across multiple systems to enhance predictive insights.
 
 ---
 
