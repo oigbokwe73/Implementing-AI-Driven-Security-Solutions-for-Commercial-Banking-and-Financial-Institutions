@@ -313,7 +313,7 @@ Automation and AI-driven solutions to reduce manual tasks and optimize IT infras
 - **Azure Monitor & Application Insights:** Provide deep insights into the performance and availability of your applications, services, and infrastructure.
 - **Azure Automation & Azure Functions(Xenhey):** Automate routine maintenance tasks like patch management, scaling, and issue resolution, reducing manual intervention.
 - **Azure AI and Machine Learning:** Use AI models to predict system performance, automate decision-making, and optimize resources.
-- **Azure Logic Apps:** Automate complex workflows across Azure services and on-premise systems for continuous improvement in IT operations.
+- **Xenhey:** Automate complex workflows across Azure services and on-premise systems for continuous improvement in IT operations.
 - **Azure DevOps:** Automate CI/CD pipelines, ensuring faster and more reliable application deployments.
 
 #### **Key Benefits:**
