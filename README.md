@@ -93,7 +93,7 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
    - Store the data in Azure Data Lake or Blob Storage for large-scale analytics.
 
 2. **Data Preparation & Processing**:
-   - Use Azure Data Factory to preprocess the data, perform cleansing, and detect anomalies or patterns in transaction history.
+   - Use Xenhey to preprocess the data, perform cleansing, and detect anomalies or patterns in transaction history.
 
 3. **Model Development**:
    - Train machine learning models in Azure Machine Learning using historical fraud data.
