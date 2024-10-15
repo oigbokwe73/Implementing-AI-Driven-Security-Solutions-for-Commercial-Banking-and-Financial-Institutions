@@ -3,8 +3,6 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
 
 ### 1. **Machine Learning-based Identity Verification**
 
-#### Step-by-Step Azure Roadmap:
-
 1. **Data Collection**:
    - Xenhey will have a SFTP/API endpoint --> Azure Blob Storage to collect identity data (e.g., documents, images, or other personal data).
    - Use Azure Cognitive Services (Face API, OCR) to extract and validate personal details (like face matching, text extraction).
@@ -35,8 +33,6 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
 
 ### 2. **Behavioral Biometrics Analysis**
 
-#### Step-by-Step Azure Roadmap:
-
 1. **Data Ingestion**:
    - Collect behavioral data (e.g., keystrokes, typing patterns, mouse movements) via IoT devices or applications and store it in Azure Blob Storage(Xenhey).
 
@@ -63,26 +59,24 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
 
 ### 3. **AI-driven KYC (Know Your Customer) Enhancements**
 
-#### Step-by-Step Azure Roadmap:
-
 1. **Data Ingestion**:
-   - Ingest customer data from multiple sources (documents, transactions, etc.) using Azure Data Factory and store in Azure Blob Storage or Data Lake.
+   - Ingest customer data from multiple sources (documents, transactions, etc.) using Xenhey and store in Azure Blob Storage or Data Lake.
 
 2. **Data Enrichment & Validation**:
    - Use Azure Cognitive Services (Text Analytics, OCR) for document extraction and data enrichment.
-   - Validate customer data by comparing it with external datasets via APIs (e.g., government records).
+   - Validate customer data by comparing it with external datasets via APIs (e.g., government records, experian, lexisnexis).
 
 3. **Model Development**:
    - Use Azure Machine Learning to build models that evaluate KYC data for anomalies or mismatches, focusing on identity validation, risk scoring, and verification checks.
 
 4. **Customer Risk Profiling**:
-   - Leverage AI models to build risk profiles for customers based on historical data and behavioral patterns. Azure Synapse Analytics can be used for big data processing.
+   - Leverage AI models to build risk profiles for customers based on historical data and behavioral patterns. Xenhey can be used for big data processing.
 
-5. **Automation with Azure Logic Apps**:
-   - Xenhey workflows (e.g., flagging high-risk customers) using Azure Logic Apps and integrate them with customer onboarding systems.
+5. **Automation with Xenhey Orchestratiion WorkFlows**:
+   - Automate workflows (e.g., flagging high-risk customers) using Xenhey and integrate them with customer onboarding systems.
 
 6. **Model Deployment**:
-   - Deploy KYC models using Azure Kubernetes Service (AKS) to handle high-volume, real-time data processing.
+   - Deploy KYC models using Azure Functions(Xenhey) to handle high-volume, real-time data processing.
    
 7. **Security**:
    - Use Azure Key Vault for securely handling sensitive KYC data like PII and enable Azure Security Center for monitoring.
@@ -93,8 +87,6 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
 ---
 
 ### 4. **Predictive Analytics for Fraud Detection**
-
-#### Step-by-Step Azure Roadmap:
 
 1. **Data Collection**:
    - Use Azure Event Hubs to capture transactional and behavioral data in real-time from various sources such as online transactions, customer activities, and logs.
@@ -108,11 +100,11 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
    - Algorithms like Random Forest, Gradient Boosting, and neural networks can be used for predictive fraud analytics.
    
 4. **Real-Time Fraud Detection**:
-   - Deploy real-time fraud detection models on Azure Kubernetes Service (AKS) or Azure Machine Learning endpoints.
+   - Deploy real-time fraud detection models on Azure Functions Apps(Xenhey).
    - Integrate the solution with Azure Stream Analytics for real-time scoring and anomaly detection during customer transactions.
 
 5. **Integration with Payment Systems**:
-   - Integrate fraud detection models with existing payment gateways or transaction systems using Azure API Management for seamless detection and flagging.
+   - Integrate fraud detection models with existing payment gateways or transaction systems using Azure API Management --> Azure Function apps(Xenhey) for seamless detection and flagging.
 
 6. **Reporting & Analytics**:
    - Use Power BI to create dashboards and reports for fraud patterns and predictive insights.
@@ -127,4 +119,3 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
 
 ---
 
-This roadmap provides a structured approach for implementing machine learning-based solutions on Azure for each of the four focus areas, with a blend of services for data collection, processing, modeling, deployment, and compliance. Let me know if you'd like diagrams for any of these architectures!
