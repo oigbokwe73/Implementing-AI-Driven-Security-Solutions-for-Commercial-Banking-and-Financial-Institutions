@@ -36,17 +36,14 @@
 
 2. **Feature Engineering**:
    - Use Xenhey to preprocess and extract features from behavioral data.
-
-3. **Model Training**:
-   - Utilize Azure Machine Learning to build models based on behavioral biometrics using algorithms like Recurrent Neural Networks (RNN) or Long Short-Term Memory (LSTM) for time-series data analysis.
-   
-4. **Model Testing**:
+   -    
+3. **Model Testing**:
    - Conduct testing and evaluation using AML’s experimentation tools to determine the accuracy and effectiveness of the model.
 
-5. **Deployment**:
+4. **Deployment**:
    - Deploy the trained models in Azure Container Instances or Azure Functions(Xenhey) for real-time analysis of behavioral patterns.
 
-6. **Monitoring & Optimization**:
+5. **Monitoring & Optimization**:
    - Leverage Azure Monitor to analyze model performance and set up alerts for abnormal behavior detection.
    - Use Azure Event Hubs to stream real-time behavioral data for continuous model retraining.
 
