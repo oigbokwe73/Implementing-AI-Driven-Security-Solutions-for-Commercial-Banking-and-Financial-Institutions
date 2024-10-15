@@ -36,10 +36,10 @@ Here's an Azure roadmap for each of the Machine Learning-based solutions you men
 ### 2. **Behavioral Biometrics Analysis**
 
 1. **Data Ingestion**:
-   - Collect behavioral data (e.g., keystrokes, typing patterns, mouse movements) via IoT devices or applications and store it in Azure Blob Storage(Xenhey).
+   - Collect behavioral data from applications and store it in Xenhey --> Azure Blob Storage.
 
 2. **Feature Engineering**:
-   - Use Xenhey to preprocess and extract features from behavioral data (such as typing speed, time between keystrokes).
+   - Use Xenhey to preprocess and extract features from behavioral data.
 
 3. **Model Training**:
    - Utilize Azure Machine Learning to build models based on behavioral biometrics using algorithms like Recurrent Neural Networks (RNN) or Long Short-Term Memory (LSTM) for time-series data analysis.
@@ -313,7 +313,7 @@ Ensure that systems and processes align with industry regulations (e.g., GDPR, H
 Building a secure, reliable, and transparent platform for users to engage with your services.
 
 #### **Azure Solutions:**
-- **Azure AD (Active Directory) & Azure B2C:** Offers identity management and secure access control, enhancing customer login experiences with multifactor authentication (MFA) and password policies.
+- **Azure EntraID and Azure B2C:** Offers identity management and secure access control, enhancing customer login experiences with multifactor authentication (MFA) and password policies.
 - **Azure Key Vault:** Secures sensitive customer data such as API keys, tokens, and passwords.
 - **Azure Security Center:** Demonstrates proactive security, boosting customer confidence in your services.
 - **Azure Sentinel:** Provides visible and robust security measures to protect customer data and identify breaches quickly.
@@ -330,7 +330,7 @@ Automation and AI-driven solutions to reduce manual tasks and optimize IT infras
 
 #### **Azure Solutions:**
 - **Azure Monitor & Application Insights:** Provide deep insights into the performance and availability of your applications, services, and infrastructure.
-- **Azure Automation & Azure Functions:** Automate routine maintenance tasks like patch management, scaling, and issue resolution, reducing manual intervention.
+- **Azure Automation & Azure Functions(Xenhey):** Automate routine maintenance tasks like patch management, scaling, and issue resolution, reducing manual intervention.
 - **Azure AI and Machine Learning:** Use AI models to predict system performance, automate decision-making, and optimize resources.
 - **Azure Logic Apps:** Automate complex workflows across Azure services and on-premise systems for continuous improvement in IT operations.
 - **Azure DevOps:** Automate CI/CD pipelines, ensuring faster and more reliable application deployments.
